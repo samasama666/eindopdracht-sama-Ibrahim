@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -48,24 +48,26 @@ main img {
     padding: 20px;
     height: 50vh;
     width: 30vw;
-    
+
 }
 
 p {
     font-size: 1.4em;
-    text-align: left                                                                                ;
+    text-align: left;
 }
 
-.ul, li{
+.ul,
+li {
     font-size: 1.3em;
 }
 
 .mainimage {
     width: 40vw;
     height: 40vh;
-} 
+}
 
-.button, nav a {
+.button,
+nav a {
     font-size: 20px;
     padding: 0.5em;
     font-family: arial;
@@ -127,14 +129,14 @@ div.figure img {
     height: 20vh;
 }
 
-.vogueabout{
+.vogueabout {
     height: 40vh;
     width: 40vh;
 }
 
-.allefotos{
+.allefotos {
     display: flex;
-    
+
     flex-direction: column;
     width: 45vw;
     height: 30vw;
