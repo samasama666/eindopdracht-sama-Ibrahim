@@ -1,6 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: rgb(241, 183, 183);
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.6em;
+
 }
 
 h1 {
@@ -13,7 +20,7 @@ h1 {
     border: 1px solid black;
 }
 
-h2{
+h2 {
     width: 70%;
     margin: 0 auto;
 }
@@ -22,47 +29,45 @@ nav ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-    background-color: rgb(235, 105, 105);  
+    background-color: rgb(232, 141, 141);
 }
 
 main {
     margin: 0 auto;
     width: 70%;
     text-align: center;
-    border-radius: 3rem;
-    border: 1px solid;
 }
 
-footer {
-    width: 70%;
-    margin: 0 auto;
-}
-
-
-p {
-    width: 88%;
-    margin: 0 auto;
-    border: 1px solid rgb(0, 0, 0);
-    background-color: rgb(246, 147, 147);
-    font-size: large;
-    padding: 1px
-}
-
-body img {
+main img {
     border-radius: 3rem;
     border: 1rem;
     padding: 20px;
+    height: 50vh;
+    width: 30vw;
+    
 }
 
-.button,
-nav a {
+p {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.ul, li{
+    font-size: 1.3em;
+}
+
+.mainimage {
+    width: 40vw;
+    height: 40vh;
+} 
+
+.button, nav a {
     font-size: 20px;
     padding: 0.5em;
     font-family: arial;
     color: black;
     border: 4px solid black;
     border-radius: 0.7em;
-    text-decoration: none;
     background-color: bisque;
 }
 
@@ -71,14 +76,13 @@ nav a:hover {
     background: black;
     color: white;
     border-color: beige;
-    /*transform translateY(-0.5em);*/
 }
 
-li a{
+li a {
     color: black;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
@@ -94,7 +98,7 @@ img {
     display: flex;
 }
 
-.flex-container>div {
+.flex-container div {
     background-color: #f1f1f1;
     margin: 0 auto;
     padding: 20px;
@@ -104,45 +108,44 @@ img {
 }
 
 div.figure img {
-    float: right;
+    justify-content: right;
     padding: 10px;
 }
 
-footer img {
-    float: none;
-    padding: 20px;
-    width: 60vw;
-    height: 56vh;
-    margin: 0 auto;
-}
 
-.mode1, .mode2, .mode3, .mode4 {
-    width: 27vw;
-}
-
-.fotos1{
-    float: left;
-    width: 30vw;
-    height: 70vh;
-}
-
-.fotos2 {
-    width: 13vw;
-    height: 50vh;
-    float: right;
-}
-
-.fotos3, .fotos4  {
-    width: auto;
-    height: 70vh;
-}
-
-section{
-    border: 6px solid rgb(237, 165, 165);
-    padding: 0%
+.fashion {
+    height: 20vw;
+    width: 40vw;
 }
 
 .gif {
     width: 20vw;
     height: 20vh;
+}
+
+.vogueabout{
+    height: 40vh;
+    width: 40vh;
+}
+
+.allefotos{
+    display: flex;
+    
+    flex-direction: column;
+    width: 45vw;
+    height: 30vw;
+}
+
+.allefotos2 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+}
+
+
+footer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(238, 132, 132);
 }
